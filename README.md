@@ -1,7 +1,7 @@
 # Renewable Energy Forecasting with Machine Learning
 
-**TFG – Gestió de Ciutats Intel·ligents i Sostenibles**  
-**Universitat Autònoma de Barcelona (UAB) | 2025–26**  
+**Bachelor's Thesis – Smart and Sustainable City Management**  
+**Universitat Autònoma de Barcelona (UAB) | 2025–26**
 **Author:** Arnau Ropero Garcia  
 **Supervisor:** Juan Carlos Valle López  
 
