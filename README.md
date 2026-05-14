@@ -9,15 +9,9 @@
 
 ## Overview
 
-This repository contains the code and models developed for the final 
-degree project on renewable energy generation forecasting using Machine 
-Learning. The project uses hourly solar and wind generation data from 
-Spain (2023–2025) and evaluates three ML models: Prophet, XGBoost and LSTM.
+This repository contains the code and models developed for the final degree project on renewable energy generation forecasting using Machine Learning. The project uses hourly solar and wind generation data from Spain (2023–2025) and evaluates three ML models: Prophet, XGBoost and LSTM.
 
-The central case study is the **Iberian Peninsula blackout of April 28, 
-2025**. The models are used to detect anomalous deviations from 
-meteorologically expected generation, evidencing the non-meteorological 
-nature of the blackout.
+The central case study is the **Iberian Peninsula blackout of April 28, 2025**. The models are used to detect anomalous deviations from meteorologically expected generation, evidencing the non-meteorological nature of the blackout.
 
 ---
 
@@ -33,6 +27,8 @@ nature of the blackout.
 ---
 
 ## Repository Structure
+
+```
 ├── notebooks/
 │   ├── descarrega_entsoe.ipynb       # ENTSO-E data download
 │   ├── fusio_preprocessament.ipynb   # Data fusion and preprocessing
@@ -48,11 +44,14 @@ nature of the blackout.
 │   └── lstm_eolic.keras
 ├── figures/                          # Generated plots
 └── data/
-└── README.md                     # How to obtain the dataset
+    └── README.md                     # How to obtain the dataset
+```
 
 ---
 
 ## Requirements
+
+```
 Python 3.12
 tensorflow
 xgboost
@@ -62,14 +61,13 @@ pandas
 numpy
 matplotlib
 entsoe-py
+```
 
 ---
 
 ## Data
 
-The dataset is not included in this repository. See `data/README.md` 
-for instructions on how to reproduce it from public sources 
-(ENTSO-E and Open-Meteo).
+The dataset is not included in this repository. See `data/README.md` for instructions on how to reproduce it from public sources (ENTSO-E and Open-Meteo).
 
 ---
 
