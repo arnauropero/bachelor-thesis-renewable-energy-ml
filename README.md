@@ -1,9 +1,9 @@
 # Renewable Energy Forecasting with Machine Learning
 
 **Bachelor's Thesis – Smart and Sustainable City Management**  
-**Universitat Autònoma de Barcelona (UAB) | 2025–26**
+**Universitat Autònoma de Barcelona (UAB) | 2025–26**  
 **Author:** Arnau Ropero Garcia  
-**Supervisor:** Juan Carlos Valle López  
+**Supervisor:** Juan Carlos Valle López
 
 ---
 
