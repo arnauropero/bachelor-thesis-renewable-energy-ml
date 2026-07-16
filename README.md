@@ -5,6 +5,8 @@
 **Author:** Arnau Ropero Garcia  
 **Supervisor:** Juan Carlos Valle López
 
+📄 **[Read the full thesis (PDF)](./thesis.pdf)**
+
 ---
 
 ## Overview
@@ -12,6 +14,12 @@
 This repository contains the code and models developed for the final degree project on renewable energy generation forecasting using Machine Learning. The project uses hourly solar and wind generation data from Spain (2023–2025) and evaluates three ML models: Prophet, XGBoost and LSTM.
 
 The central case study is the **Iberian Peninsula blackout of April 28, 2025**. The models are used to detect anomalous deviations from meteorologically expected generation, evidencing the non-meteorological nature of the blackout.
+
+---
+
+## Key Finding
+
+On 28 April 2025, weather conditions were ideal for solar generation (cloud cover below 16%, irradiance up to 912 W/m²), yet real generation collapsed from ~19,000 MW to ~5,000 MW in under two hours. Prophet and LSTM — which rely on meteorological patterns rather than recent autoregressive values — flagged 9 of the 24 hours that day as anomalies, correctly signaling a non-meteorological cause. XGBoost, which adapts quickly via autoregressive lags, detected only 3 hours — revealing a real trade-off between forecast accuracy and anomaly-detection sensitivity.
 
 ---
 
@@ -43,6 +51,7 @@ The central case study is the **Iberian Peninsula blackout of April 28, 2025**. 
 │   ├── lstm_solar.keras
 │   └── lstm_eolic.keras
 ├── figures/                          # Generated plots
+├── thesis.pdf                        # Full thesis document
 └── data/
     └── README.md                     # How to obtain the dataset
 ```
@@ -74,3 +83,7 @@ The dataset is not included in this repository. See `data/README.md` for instruc
 ## License
 
 MIT License
+
+---
+
+**Contact:** arnauroperouab@gmail.com | [LinkedIn](www.linkedin.com/in/arnau-ropero)
